@@ -390,7 +390,7 @@ fieldset {
 
 /*
  * 1. Corrects color not being inherited in IE6/7/8/9
- * 2. Corrects text not wrapping in FF3 
+ * 2. Corrects text not wrapping in FF3
  * 3. Corrects alignment displayed oddly in IE6/7
  */
 legend {
@@ -818,6 +818,20 @@ section #title .credits.left {
 }
 section #title .credits.right {
   float: right;
+}
+
+footer {
+  font-size: 0.8em;
+}
+
+footer, footer a {
+  color: #999;
+}
+
+footer img {
+  display: block;
+  float: left;
+  margin-right: 1.5em;
 }
 
 @media print, screen and (max-width: 720px) {
